@@ -5,4 +5,4 @@ class Vehiculo:
         self.ruedas = ruedas
 
     def __str__(self):
-        return f"color {self.color}, {self.ruedas} ruedas"
+        return f"Color {self.color}, {self.ruedas} ruedas"

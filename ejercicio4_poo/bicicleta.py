@@ -9,4 +9,4 @@ class Bicicleta(Vehiculo):
 
     def __str__(self):
         #return super().__str__(self)\ + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada) + f"{self.tipo}"
-        return f'Bicicleta : {}'
+        return f'Color: {self.color}, ruedas: {self.ruedas}, tipo: {self.tipo}'

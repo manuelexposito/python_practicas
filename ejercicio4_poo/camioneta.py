@@ -9,6 +9,4 @@ class Camioneta(Coche):
         self.carga = carga
 
     def __str__(self):
-        return super().__str__(self)\
-               + ", {} km/h, {} cc".format(self.velocidad, self.cilindrada)\
-               + f"{self.carga}"
+        return f"Color: {self.color}, ruedas: {self.ruedas}, velocidad: {self.velocidad}, cilindradas: {self.cilindrada}, carga: {self.carga}"
